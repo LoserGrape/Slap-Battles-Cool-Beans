@@ -81,5 +81,3 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "</Badge Givers> - do i even need to explain?"
 })
-
-tic tacky unfinished im oging o bed
