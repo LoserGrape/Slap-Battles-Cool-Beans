@@ -55,7 +55,7 @@ Tab:AddButton({
 Tab:AddLabel("Custom Abilitys For Free Lol")
 
 Tab:AddButton({
-	Name = "Looney Tunes Ahh Death,
+	Name = "Looney Tunes Ahh Death",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Piano:FireServer()
               wait(0.03)
