@@ -79,13 +79,15 @@ FSTab:AddButton({
   	end    
 })
 
-FSTab:AddButton({
-	Name = "Scary JumpScare",
+local CombatTab = Window:MakeTab({
+	Name = "Combat",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+CombatTab:AddButton({
+	Name = "Button!",
 	Callback = function()
-      		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Thor.Animation, game.Players.LocalPlayer.Character.Humanoid):Play()
-              wait(2.1)
-            game:GetService("ReplicatedStorage").RetroAbility:FireServer("Bomb")
-         wait(0.03)
-     game:GetService("Players").LocalPlayer.Reset:FireServer()
+      		print("button pressed")
   	end    
 })
