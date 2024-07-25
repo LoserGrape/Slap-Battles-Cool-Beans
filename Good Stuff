@@ -18,43 +18,39 @@ OrionLib:MakeNotification({
 
 ----- friwontitsafunfact
 
-local Tab = Window:MakeTab({
+local FSTab = Window:MakeTab({
 	Name = "Free Stuff",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local Section = Tab:AddSection({
-	Name = "</Free Stuff> - poor? broke? alright,"
-})
+FSTab:AddLabel("if your a showcaser and have no slaps use this ig")
+FSTab:AddLabel("if your ALSO a showcaser check out the settings tab")
 
-Tab:AddLabel("if your a showcaser and have no slaps use this ig")
-Tab:AddLabel("if your ALSO a showcaser check out the settings tab")
-
-Tab:AddButton({
+FSTab:AddButton({
 	Name = "Rhythm Explosion",
 	Callback = function()
       		game:GetService("ReplicatedStorage").rhythmevent:FireServer("AoeExplosion",0)
   	end    
 })
 
-Tab:AddButton({
+FSTab:AddButton({
 	Name = "Null's Ability",
 	Callback = function()
       		game:GetService("ReplicatedStorage").NullAbility:FireServer()
   	end    
 })
 
-Tab:AddButton({
+FSTab:AddButton({
 	Name = "Here Comes The Piano [Blasphemy]",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Piano:FireServer()
   	end    
 })
 
-Tab:AddLabel("Custom Abilitys For Free Lol")
+FSTab:AddLabel("Custom Abilitys For Free Lol")
 
-Tab:AddButton({
+FSTab:AddButton({
 	Name = "Rocket-Ship",
 	Callback = function()
       		game:GetService("ReplicatedStorage").rhythmevent:FireServer("AoeExplosion",0)
@@ -63,8 +59,8 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "what",
+FSTab:AddButton({
+	Name = "Death Wish",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/LoserGrape/flinger-roblox/main/chatgpt%20fart'))()
               wait(0.01)
@@ -72,8 +68,19 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
+FSTab:AddButton({
 	Name = "Active Bomb Threat",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Thor.Animation, game.Players.LocalPlayer.Character.Humanoid):Play()
+              wait(2.1)
+            game:GetService("ReplicatedStorage").RetroAbility:FireServer("Bomb")
+         wait(0.03)
+     game:GetService("Players").LocalPlayer.Reset:FireServer()
+  	end    
+})
+
+FSTab:AddButton({
+	Name = "Scary JumpScare",
 	Callback = function()
       		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Thor.Animation, game.Players.LocalPlayer.Character.Humanoid):Play()
               wait(2.1)
