@@ -54,7 +54,7 @@ Tab:AddButton({
 
 Tab:AddLabel("Custom Abilitys For Free Lol")
 
-Tab:AddButton({til
+Tab:AddButton({
 	Name = "Rocket-Ship",
 	Callback = function()
       		game:GetService("ReplicatedStorage").rhythmevent:FireServer("AoeExplosion",0)
@@ -71,3 +71,4 @@ Tab:AddButton({
          game:GetService("Players").LocalPlayer.Reset:FireServer()
   	end    
 })
+
