@@ -72,3 +72,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Active Bomb Threat",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Thor.Animation, game.Players.LocalPlayer.Character.Humanoid):Play()
+              wait(2.1)
+            game:GetService("ReplicatedStorage").RetroAbility:FireServer("Bomb")
+         wait(0.03)
+     game:GetService("Players").LocalPlayer.Reset:FireServer()
+  	end    
+})
