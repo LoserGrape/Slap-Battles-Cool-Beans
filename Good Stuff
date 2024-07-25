@@ -71,9 +71,3 @@ Tab:AddButton({
          game:GetService("Players").LocalPlayer.Reset:FireServer()
   	end    
 })
-
-local Tab = Window:MakeTab({
-	Name = "iipoopbutn",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
