@@ -62,3 +62,14 @@ Tab:AddButton({
          loadstring(game:HttpGet('https://raw.githubusercontent.com/LoserGrape/flinger-roblox/main/chatgpt%20fart'))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "what",
+	Callback = function()
+      		game:GetService("Players").LocalPlayer.Reset:FireServer()
+              wait(0.01)
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/LoserGrape/flinger-roblox/main/chatgpt%20fart'))()
+  	end    
+})
+
+Tab:AddLabel("Glove Mods")
