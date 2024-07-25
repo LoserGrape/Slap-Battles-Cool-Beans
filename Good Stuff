@@ -1,0 +1,39 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Slap Battles | Whale Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "When The Saints Go Marching",
+	Content = "Coded By @WhaleRoblox On YT",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+OrionLib:MakeNotification({
+	Name = "Fun Fact!",
+	Content = "i wont bitch around when you upload my scripts",
+	Image = "rbxassetid://4483345998",
+	Time = 8
+})
+
+----- friwontitsafunfact
+
+local Tab = Window:MakeTab({
+	Name = "Free Stuff",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "</Free Stuff> - poor? broke? alright,"
+})
+
+Tab:AddLabel("if your a showcaser and have no slaps use this ig")
+Tab:AddLabel("if your ALSO showcaser check out the settings tab")
+
+Tab:AddButton({
+	Name = "Rhythm Explosion",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").rhythmevent:FireServer("AoeExplosion",0)
+  	end    
+})
