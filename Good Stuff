@@ -72,4 +72,14 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddLabel("Glove Mods")
+local Tab = Window:MakeTab({
+	Name = "Badge Givers",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "</Badge Givers> - do i even need to explain?"
+})
+
+tic tacky unfinished im oging o bed
