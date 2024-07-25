@@ -66,9 +66,9 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "what",
 	Callback = function()
-      		game:GetService("Players").LocalPlayer.Reset:FireServer()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/LoserGrape/flinger-roblox/main/chatgpt%20fart'))()
               wait(0.01)
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/LoserGrape/flinger-roblox/main/chatgpt%20fart'))()
+         game:GetService("Players").LocalPlayer.Reset:FireServer()
   	end    
 })
 
