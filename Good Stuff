@@ -54,7 +54,7 @@ Tab:AddButton({
 
 Tab:AddLabel("Custom Abilitys For Free Lol")
 
-Tab:AddButton({
+Tab:AddButton({til
 	Name = "Rocket-Ship",
 	Callback = function()
       		game:GetService("ReplicatedStorage").rhythmevent:FireServer("AoeExplosion",0)
@@ -73,7 +73,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Badge Givers",
+	Name = "iinininin",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+w	PremiumOnly = false
 })
