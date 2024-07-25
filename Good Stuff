@@ -73,7 +73,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "iinininin",
+	Name = "iipoopbutn",
 	Icon = "rbxassetid://4483345998",
-w	PremiumOnly = false
+	PremiumOnly = false
 })
