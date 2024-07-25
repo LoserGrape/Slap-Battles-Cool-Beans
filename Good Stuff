@@ -29,11 +29,36 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddLabel("if your a showcaser and have no slaps use this ig")
-Tab:AddLabel("if your ALSO showcaser check out the settings tab")
+Tab:AddLabel("if your ALSO a showcaser check out the settings tab")
 
 Tab:AddButton({
 	Name = "Rhythm Explosion",
 	Callback = function()
       		game:GetService("ReplicatedStorage").rhythmevent:FireServer("AoeExplosion",0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Null's Ability",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").NullAbility:FireServer()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Here Comes The Piano [Blasphemy]",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Piano:FireServer()
+  	end    
+})
+
+Tab:AddLabel("Custom Abilitys For Free Lol")
+
+Tab:AddButton({
+	Name = "Looney Tunes Ahh Death,
+	Callback = function()
+      		game:GetService("ReplicatedStorage").Piano:FireServer()
+              wait(0.03)
+          game:GetService("Players").LocalPlayer.Reset:FireServer()
   	end    
 })
