@@ -100,3 +100,12 @@ FSTab:AddButton({
          game:GetService("ReplicatedStorage").RetroAbility:FireServer("Bomb")
   	end    
 })
+
+FSTab:AddButton({
+	Name = "Retro Rocket Launcher",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.bombthrow, game.Players.LocalPlayer.Character.Humanoid):Play()
+            wait(0.6)
+         game:GetService("ReplicatedStorage").RetroAbility:FireServer("Rocket Launcher")
+  	end    
+})
