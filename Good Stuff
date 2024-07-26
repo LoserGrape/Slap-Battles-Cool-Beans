@@ -91,7 +91,7 @@ FSTab:AddButton({
 })
 
 FSTab:AddButton({
-	Name = "Retro Rocket Launcher",
+	Name = "Retro Rocket-Launcher",
 	Callback = function()
       		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Retro.Animations["Rocket Launcher"], game.Players.LocalPlayer.Character.Humanoid):Play()
         wait(0.7)
