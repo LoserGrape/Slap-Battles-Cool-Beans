@@ -125,7 +125,7 @@ CustomTab:AddButton({
 	Name = "Creeper Glove [EQUIP WARP]",
 	Callback = function()
       		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.summonPortal, game.Players.LocalPlayer.Character.Humanoid):Play()
-         wait(4)
+         wait(3.1)
      game:GetService("ReplicatedStorage").RetroAbility:FireServer("Bomb")
   wait(0.03)
 game:GetService("Players").LocalPlayer.Reset:FireServer()
