@@ -134,3 +134,11 @@ game:GetService("Players").LocalPlayer.Reset:FireServer()
 
 CustomTab:AddParagraph("Funny","minecraft poop, [you dont really need warp to use this, warp just looks like a creeper]")
 
+Tab:AddButton({
+	Name = "Sniper Rifle [Need Bomb]",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").BombThrow:FireServer()
+            wait(0.03)
+        game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Retro.Animations["Rocket Launcher"], game.Players.LocalPlayer.Character.Humanoid):Play()
+  	end    
+})
