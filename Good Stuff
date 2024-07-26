@@ -17,8 +17,8 @@ OrionLib:MakeNotification({
 })
 
 OrionLib:MakeNotification({
-	Name = "Fun Fact!",
-	Content = "i wont bitch around when you upload my scripts",
+	Name = "@WhaleRoblox On YT",
+	Content = "subscribe lol",
 	Image = "rbxassetid://4483345998",
 	Time = 8
 })
@@ -148,3 +148,5 @@ wait(0.02)
         game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Retro.Animations["Rocket Launcher"], game.Players.LocalPlayer.Character.Humanoid):Play()
   	end    
 })
+
+Tab:AddParagraph("The Struggle","i dont really wanna finish this because im a lazy fuck who does not do anything but script")
