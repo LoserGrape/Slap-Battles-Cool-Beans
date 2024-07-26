@@ -122,7 +122,7 @@ local CustomTab = Window:MakeTab({
 })
 
 CustomTab:AddButton({
-	Name = "Creeper Glove [EXPLODE] [NEED WARP]",
+	Name = "Creeper Glove [EQUIP WARP]",
 	Callback = function()
       		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.summonPortal, game.Players.LocalPlayer.Character.Humanoid):Play()
          wait(4)
