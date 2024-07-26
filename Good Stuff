@@ -82,10 +82,10 @@ FSTab:AddButton({
 FSTab:AddLabel("More Free Abilitys That Took Me HOURS")
 
 FSTab:AddButton({
-	Name = "Firework",
+	Name = "FireWork",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Firework:InvokeServer()
-              wait(0.02)
+              wait(0.01)
            game:GetService("ReplicatedStorage").GeneralAbility:FireServer()
   	end    
 })
