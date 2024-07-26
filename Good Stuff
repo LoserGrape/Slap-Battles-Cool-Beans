@@ -98,3 +98,12 @@ FSTab:AddButton({
     game:GetService("ReplicatedStorage").RetroAbility:FireServer("Rocket Launcher")
   	end    
 })
+
+FSTab:AddButton({
+	Name = "Retro Ban-Hammer",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Retro.Animations["Ban Hammer"], game.Players.LocalPlayer.Character.Humanoid):Play()
+             wait(0.9)
+     game:GetService("ReplicatedStorage").RetroAbility:FireServer("Ban Hammer")
+  	end    
+})
