@@ -1,3 +1,10 @@
+if not game.ReplicatedStorage:FindFirstChild("summonPortal") then
+local robAnim = Instance.new("Animation")
+robAnim.AnimationId = "rbxassetid://13675136513"
+robAnim.Parent = game.ReplicatedStorage
+robAnim.Name = "summonPortal"
+end
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Slap Battles | Troll Script | Whale Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
@@ -105,5 +112,18 @@ FSTab:AddButton({
       		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Retro.Animations["Ban Hammer"], game.Players.LocalPlayer.Character.Humanoid):Play()
              wait(0.9)
      game:GetService("ReplicatedStorage").RetroAbility:FireServer("Ban Hammer")
+  	end    
+})
+
+local CustomTab = Window:MakeTab({
+	Name = "Custom Gloves",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+CustomTab:AddButton({
+	Name = "Creeper Glove [EXPLODE]",
+	Callback = function()
+      		
   	end    
 })
