@@ -124,6 +124,6 @@ local CustomTab = Window:MakeTab({
 CustomTab:AddButton({
 	Name = "Creeper Glove [EXPLODE]",
 	Callback = function()
-      		
+      		print("woohoo")
   	end    
 })
