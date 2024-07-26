@@ -92,8 +92,6 @@ FSTab:AddButton({
      end    
 })
 
-FSTab:AddLabel("May Not work cuz poopy but")
-
 FSTab:AddButton({
 	Name = "Retro Bomb",
 	Callback = function()
