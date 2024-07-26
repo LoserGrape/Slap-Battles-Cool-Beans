@@ -131,3 +131,6 @@ CustomTab:AddButton({
 game:GetService("Players").LocalPlayer.Reset:FireServer()
   	end    
 })
+
+CustomTab:AddParagraph("Funny","minecraft poop, [you dont really need warp to use this, warp just looks like a creeper]")
+
