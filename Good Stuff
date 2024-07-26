@@ -150,3 +150,9 @@ wait(0.02)
 })
 
 CustomTab:AddParagraph("The Struggle","i dont really wanna finish this because im a lazy fuck who does not do anything but script")
+
+local MiscTab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
