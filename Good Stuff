@@ -87,7 +87,7 @@ FSTab:AddButton({
       		game:GetService("ReplicatedStorage").Firework:InvokeServer()
               wait(0.01)
            game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.bombthrow, game.Players.LocalPlayer.Character.Humanoid):Play()
-          wait(0.02)
+          wait(0.1)
         game:GetService("ReplicatedStorage").GeneralAbility:FireServer()
      end    
 })
