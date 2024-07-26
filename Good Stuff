@@ -92,7 +92,7 @@ FSTab:AddButton({
      end    
 })
 
-Tab:AddButton({
+FSTab:AddButton({
 	Name = "Retro Bomb",
 	Callback = function()
       		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Retro.Animations.Bomb, game.Players.LocalPlayer.Character.Humanoid):Play()
