@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-8iiiiiiiie999
+
 local Window = OrionLib:MakeWindow({Name = "Slap Battles | Troll Script | Whale Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
