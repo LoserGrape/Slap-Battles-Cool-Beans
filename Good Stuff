@@ -79,8 +79,4 @@ FSTab:AddButton({
   	end    
 })
 
-local CombatTab = Window:MakeTab({
-	Name = "Combat",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
+FSTab:AddLabel("More Free Abilitys That Took Me HOURS")
