@@ -79,4 +79,22 @@ FSTab:AddButton({
   	end    
 })
 
-FSTab:AddLabel("More Free Abilitys That Took Me HOURS")
+FSTab:AddParagraph("More Free Abilitys","guhh i put this at the bottom cuz im retard")
+
+FSTab:AddButton({
+	Name = "Retro Bomb",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Retro.Animations.Bomb, game.Players.LocalPlayer.Character.Humanoid):Play()
+          wait(0.4)
+    game:GetService("ReplicatedStorage").RetroAbility:FireServer("Bomb")
+  	end    
+})
+
+FSTab:AddButton({
+	Name = "Retro Rocket Launcher",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Retro.Animations["Rocket Launcher"], game.Players.LocalPlayer.Character.Humanoid):Play()
+        wait(0.7)
+    game:GetService("ReplicatedStorage").RetroAbility:FireServer("Rocket Launcher")
+  	end    
+})
