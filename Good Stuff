@@ -138,7 +138,13 @@ CustomTab:AddButton({
 	Name = "Sniper Rifle [Need Bomb]",
 	Callback = function()
       		game:GetService("ReplicatedStorage").BombThrow:FireServer()
-            wait(0.03)
+            wait(0.01)
+      local character = game.Players.LocalPlayer.Character
+    wait(0.01)
+  character.HumanoidRootPart:WaitForChild("BodyVelocity"):Destroy()
+ wait(0.01)
+game:GetService("ReplicatedStorage").RetroAbility:FireServer("Bomb")
+wait(0.02)
         game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Retro.Animations["Rocket Launcher"], game.Players.LocalPlayer.Character.Humanoid):Play()
   	end    
 })
