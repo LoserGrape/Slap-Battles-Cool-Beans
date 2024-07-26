@@ -134,7 +134,7 @@ game:GetService("Players").LocalPlayer.Reset:FireServer()
 
 CustomTab:AddParagraph("Funny","minecraft poop, [you dont really need warp to use this, warp just looks like a creeper]")
 
-Tab:AddButton({
+CustomTab:AddButton({
 	Name = "Sniper Rifle [Need Bomb]",
 	Callback = function()
       		game:GetService("ReplicatedStorage").BombThrow:FireServer()
