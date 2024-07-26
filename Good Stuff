@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-
+8iiiiiiiie999
 local Window = OrionLib:MakeWindow({Name = "Slap Battles | Troll Script | Whale Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
@@ -82,7 +82,7 @@ FSTab:AddButton({
 FSTab:AddLabel("More Free Abilitys That Took Me HOURS")
 
 FSTab:AddButton({
-	Name = "Firework [PATCHED/BROKEN]",
+	Name = "Firework",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Firework:InvokeServer()
               wait(0.01)
@@ -91,6 +91,8 @@ FSTab:AddButton({
         game:GetService("ReplicatedStorage").GeneralAbility:FireServer()
      end    
 })
+
+FSTab:AddLabel("May Not work cuz poopy but")
 
 FSTab:AddButton({
 	Name = "Retro Bomb",
